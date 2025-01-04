@@ -1,9 +1,9 @@
-Conversor de Moedas 🌎💱
+## Conversor de Moedas 🌎💱
 Descrição
 
-## 🚀 O Conversor de Moedas é uma aplicação Java simples que permite converter valores entre diferentes moedas com base nas taxas de câmbio mais recentes, obtidas diretamente de uma API externa (ExchangeRate API).
+### 🚀 O Conversor de Moedas é uma aplicação Java simples que permite converter valores entre diferentes moedas com base nas taxas de câmbio mais recentes, obtidas diretamente de uma API externa (ExchangeRate API).
 
-## 💰 Atualmente, o programa suporta as seguintes moedas:
+### 💰 Atualmente, o programa suporta as seguintes moedas:
 
     BRL - Real Brasileiro
     USD - Dólar Americano
@@ -12,7 +12,7 @@ Descrição
     PEN - Novo Sol Peruano
     COP - Peso Colombiano
 
-## 📚 Como Funciona
+### 📚 Como Funciona
 
     O programa apresenta um menu com as opções de moedas disponíveis.
     O usuário insere a moeda de origem, a moeda de destino e o valor a ser convertido.
@@ -26,7 +26,7 @@ Requisitos
     Biblioteca Gson: Para parsear os dados JSON da API.
     Conexão com a internet: Necessária para acessar as taxas de câmbio.
 
-## 📦 Configuração e Execução
+### 📦 Configuração e Execução
 1. Clone o repositório:
 
 git clone https://github.com/seu-usuario/conversor-de-moedas.git
@@ -40,7 +40,7 @@ javac -cp gson-2.8.9.jar:. Main.java
 
 java -cp gson-2.8.9.jar:. Main
 
-## ✅ Exemplo de Uso
+### ✅ Exemplo de Uso
 Entrada:
 
 *************************************************
@@ -65,7 +65,7 @@ Saída:
 ******************************
 $ Obrigado pela preferência! $
 
-## 🚧 Estrutura do Código
+### 🚧 Estrutura do Código
 conversor-moedas/
 
 ├── src/
@@ -81,7 +81,7 @@ conversor-moedas/
 
 └── .gitignore
     
-## 🛠️ API Utilizada
+### 🛠️ API Utilizada
 
     ExchangeRate API: Oferece dados de taxas de câmbio em tempo real.
 
